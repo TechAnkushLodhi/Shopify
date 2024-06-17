@@ -20,9 +20,9 @@
 * open cmd (D:\dev)
 ## use Commands
 - shopify theme init
-- cd "my-new-theme" :- (your Theme dir  like :- versatile-flavor-theme)
-![image](./Theme.png)
-- shopify theme dev --store {store-name} :- (you shopify url like :- test.myshopify.com)
-
 ![image](./image.png)
 ![image](image-1.png)
+- cd "my-new-theme" :- (your Theme dir  like :- versatile-flavor-theme)
+- shopify theme dev --store {store-name} :- (you shopify url like :- test.myshopify.com)
+![image](./Theme.png)
+
