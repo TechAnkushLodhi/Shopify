@@ -1,3 +1,6 @@
+![shopify](image-2.png)
+
+
 # How to install Shopify Cli
 ## Open this url :- https://shopify.dev/docs/api/shopify-cli#contribute
 ## Open this url :- https://community.shopify.com/c/shopify-cli-and-tools/error-coming-from-bundle-install/td-p/2595997 
@@ -19,4 +22,4 @@
 - shopify theme init
 
 ![image](./image.png)
-![alt text](image-1.png)
+![image](image-1.png)
