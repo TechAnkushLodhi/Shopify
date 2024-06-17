@@ -26,3 +26,9 @@
 - shopify theme dev --store {store-name} :- (you shopify url like :- test.myshopify.com)
 ![image](./Theme.png)
 
+
+## Shopify CLI installation Done
+
+
+# Thank you
+
