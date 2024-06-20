@@ -1,0 +1,123 @@
+{% schema %}
+{
+  "name": "custom_page_insert",
+  "settings": [
+      {
+          "type": "page",
+          "id": "custom_page",
+          "label": "Insert Custom Page"
+      },
+      {
+        "type": "text",
+        "id": "page_head",
+        "label": "Custom page Heading",
+        "default" : "custom Message"
+      }
+  ],
+"presets": [
+  {
+    "name": "custom_page_insert",
+    "category": "General",
+    "settings": {
+        "custom_page": "page"
+    }
+  }
+]
+}
+{% endschema %}
+
+<style>
+    .home-sache-webpage .dt-sc-divider {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .home-sache-webpage .text-box {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        text-align: center;
+    }
+    .home-sache-webpage .img-box {
+        width: 40%;
+        padding: 0 15px;
+        text-align: center;
+    }
+    img {
+      border-style: none;
+      border: 0;
+      -ms-interpolation-mode: bicubic;
+      vertical-align: middle;
+      height: auto;
+      max-width: 100%;
+  }
+  figure {
+    margin: 0;
+  }
+  .home-sache-webpage .btn-wrap .dt-sc-btn {
+      display: inline-block;
+  }
+  .dt-sc-btn{
+       background-color: #86b941;
+      padding: 10px;
+      color: white;
+      text-decoration: none;
+  }
+  .dt-sc-heading .dt-sc-heading-description {
+    font-size: 23px;
+    line-height: 1.5;
+    text-align: center;
+    color: black;
+  }
+</style>
+
+<div class="page-width">
+  <h1 style="text-align:center;">{{ section.settings.page_head }}</h1>
+  <div class="container">
+    <div class="row home-sache-webpage">
+      <div class="dt-sc-heading  place_on_bottom  text-center">
+        <p class="dt-sc-heading-description">
+          Proprietary blend of 37 fruits &amp; vegetables, 19 herbs &amp; spices, prebiotics, 15 strains of probiotics
+          (2.5 billion CFU*), and 21 different enzymes.
+        </p>
+      </div>
+
+      <div class="dt-sc-divider">
+        <div class="text-box">
+          <div class="box">
+            <figure><img src="https://cdn.shopify.com/s/files/1/0786/1964/0091/files/iStock-1390935049.png"></figure>
+
+            <p>Our products simply taste better</p>
+          </div>
+          <div class="box">
+            <figure><img src="https://cdn.shopify.com/s/files/1/0786/1964/0091/files/iStock-1399610086.png"></figure>
+
+            <p>We control our supply chain, research, flavoring, and packaging.</p>
+          </div>
+        </div>
+        <div class="img-box">
+          <figure><img src="https://cdn.shopify.com/s/files/1/0786/1964/0091/files/Downloads.png?v=1692955655"></figure>
+          <div class="btn-wrap">
+            <a href="https://vitalbody.com/#" class="dt-sc-btn">Shop Now</a>
+          </div>
+        </div>
+        <div class="text-box">
+          <div class="box">
+            <figure><img src="https://cdn.shopify.com/s/files/1/0786/1964/0091/files/iStock-13996100864.png"></figure>
+
+            <p>REALLY nothing but plants, fruits, and vegetables!</p>
+          </div>
+          <div class="box">
+            <figure>
+              <img src="https://cdn.shopify.com/s/files/1/0786/1964/0091/files/informed_sport_black_transparent.png">
+            </figure>
+
+            <p>Certified for pro athletes</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

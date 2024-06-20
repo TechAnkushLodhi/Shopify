@@ -1,0 +1,305 @@
+{
+  "sections": {
+    "image_with_text_HMBgjE": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_bmaCHz": {
+          "type": "heading",
+          "settings": {
+            "heading": "55 SUPERCHARGED DAILY WHOLE FOOD GREENS",
+            "heading_size": "h1"
+          }
+        },
+        "text_zeikmV": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>WAKE UP & Nourish Your Body & Mind With Our 100% RDA Superfood<\/strong><\/h3><p>   7 Natural energizers for sustained energy<\/p><p>55 Whole Fruits, Vegetables, and Botanicals<\/p><p>15 Probiotic Strains & Prebiotics<\/p><p>21 Plant-Derived Enzymes<\/p><p>No Synthetics, No Crash, No Jitters<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_RnpKMz": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/products\/complete-daily-greens-pre-probiotics-superfood-powder-60-servings-backordered",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_bmaCHz",
+        "text_zeikmV",
+        "button_RnpKMz"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/No_-ext.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "slideshow_bLNaYE": {
+      "type": "slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "product_list_slider_dH9B36": {
+      "type": "Product_list_slider",
+      "settings": {
+        "Product_title": "Nutrition Your Body Will Love",
+        "Product_title_enable": true,
+        "title_alignment": "center",
+        "collection": "nutrition-your-body-will-love"
+      }
+    },
+    "daily_mineral_and_vitamin_section_EXUNwg": {
+      "type": "daily_mineral_and_vitamin_section",
+      "settings": {
+        "custom_page": "",
+        "page_head": "100% Daily Value of 22 Vitamins & Minerals All From Whole Foods"
+      }
+    },
+    "custom_tab_section_hPqadB": {
+      "type": "custom_tab_section",
+      "settings": {
+        "tab_collection_title": "All Natural Goodness In Our Whole Foods Vital Body VFV",
+        "enable_text": true,
+        "collection_list": [
+          "fruits",
+          "vegetable",
+          "botanicals"
+        ]
+      }
+    },
+    "image_with_text_xnWxDV": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hh9UUJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "High Absorption Premium Marine Collagen Peptides with Additional Proteolytic Enzymes.",
+            "heading_size": "h1"
+          }
+        },
+        "text_jD8Ld7": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Total Body Boost:<\/strong>Nourishing, rebuilding and strengthening hair, skin, nail, bones, joins, ligaments, tendons, gut and veins.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_H4yete": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/products\/hydrolyzed-marine-collagen-peptides-with-whole-food-vitamin-c-30-servings",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hh9UUJ",
+        "text_jD8Ld7",
+        "button_H4yete"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CTR30_Rend_R5_2000x_377049f1-d5d4-447a-9fa5-65eec7c418de.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "five_star_nutrition_section_LXKkxx": {
+      "type": "Five_Star_Nutrition_Section",
+      "blocks": {
+        "content_block_dagakJ": {
+          "type": "content_block",
+          "settings": {
+            "content_Heading": "Peace and Clarity",
+            "name": "Braydon",
+            "content_of_page": "<p>“Vital body products have brought peace and clarity to my mind. I had been starving myself of vitamins and minerals that my body craved all because of a busy life and grabbing food to go. With no other changes to my diet except for adding vital body’s VFV, DBR, CTR, Vital D, Vital C, Vital Microbiome and Digestive enzymes, which I can still grab and be on the go, no longer have cravings, I have mental clarity, and I want to eat healthier.”<\/p>"
+          }
+        },
+        "content_block_hKCbTY": {
+          "type": "content_block",
+          "settings": {
+            "content_Heading": "More energy and I'm sleeping better",
+            "name": "Grant",
+            "content_of_page": "<p>“I have tried many different supplements throughout the years. The combination of VFV, DBR and CTR is the ONLY thing that has changed the way I feel. I am thinking more clearly, I have more energy and I’m sleeping better. I absolutely love the stuff.”<\/p>"
+          }
+        },
+        "content_block_PPTMTA": {
+          "type": "content_block",
+          "settings": {
+            "content_Heading": "Truly been able to prove results",
+            "name": "Chandler",
+            "content_of_page": "<p>“I use vital body’s products every morning. I mix fruit and veggie for my morning shake. That helps me get going for the day. I use DBR for the GYM and I notice a huge difference with my overall endurance and my strength. It’s hands down the best quality. If you’re on the fence about buying it then make the you should absolutely do it!!”<\/p>"
+          }
+        },
+        "content_block_pemWmb": {
+          "type": "content_block",
+          "settings": {
+            "content_Heading": "Truly been able to prove results",
+            "name": "scott",
+            "content_of_page": "<p>“Only product I have found that has truly been able to prove results. For more than 20 years, my sports injuries have plagued me, with multiple issues of pain and being able to exercise. The products of Vital Body, within days of use, have allowed me to participate in activities I thought my body would never be able to endure again. Truly amazing all natural product!”<\/p>"
+          }
+        },
+        "content_block_JwFQwG": {
+          "type": "content_block",
+          "settings": {
+            "content_Heading": "Hands down the best quality",
+            "name": "​Chandler",
+            "content_of_page": "<p>“I use vital body’s products every morning. I mix fruit and veggie for my morning shake. That helps me get going for the day. I use DBR for the GYM and I notice a huge difference with my overall endurance and my strength. It’s hands down the best quality. If you’re on the fence about buying it then make the you should absolutely do it!!”<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "content_block_dagakJ",
+        "content_block_hKCbTY",
+        "content_block_PPTMTA",
+        "content_block_pemWmb",
+        "content_block_JwFQwG"
+      ],
+      "settings": {
+        "Heading": "Five Star Nutrition",
+        "text_enable": true,
+        "font_size": 44,
+        "vertical_alignment": "center"
+      }
+    },
+    "image_with_text_dqkRbj": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_n4B9ea": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Commitment To You & The Thousands Of Consumers Who Have Used Our Products.",
+            "heading_size": "h1"
+          }
+        },
+        "text_W4EFhW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>VitalBody does not use synthetic vitamins, colors, flavors, preservatives, or sweeteners in any of our products. All of our products are manufactured only in the US.<\/p><ul><li>Most complete formulas<\/li><li>High potency<\/li><li>Two small easy to take capsules<\/li><li>All vitamins from fruits and vegetables<\/li><li>Clean manufacturing & 3rd party tested<\/li><\/ul>",
+            "text_style": "body"
+          }
+        },
+        "button_4hUAw7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/pages\/about-us",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_n4B9ea",
+        "text_W4EFhW",
+        "button_4hUAw7"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/vital-pills.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_4HQpCH": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_RpD9D7": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Vital Body Difference",
+            "heading_size": "h1"
+          }
+        },
+        "text_eU3X4e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Connective Tissue Repair with Vital Body CTR Collagen.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_QAVAyp": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/blogs\/test",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_RpD9D7",
+        "text_eU3X4e",
+        "button_QAVAyp"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sddefault.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_with_text_HMBgjE",
+    "slideshow_bLNaYE",
+    "product_list_slider_dH9B36",
+    "daily_mineral_and_vitamin_section_EXUNwg",
+    "custom_tab_section_hPqadB",
+    "image_with_text_xnWxDV",
+    "five_star_nutrition_section_LXKkxx",
+    "image_with_text_dqkRbj",
+    "image_with_text_4HQpCH"
+  ]
+}

@@ -1,0 +1,123 @@
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<div class="page-width">
+  {% if section.settings.text_enable %}
+    <h1 style="font-size:{{ section.settings.font_size }}px;text-align:{{ section.settings.vertical_alignment }}">
+      {{ section.settings.Heading }}
+    </h1>
+  {% endif %}
+
+  <div class="container slider_example">
+    {% for block in section.blocks %}
+      <div class="content-block">
+        {% if block.settings.content_Heading %}
+          <h2>
+            <b>{{ block.settings.content_Heading }}</b>
+          </h2>
+        {% endif %}
+        {% if block.settings.name %}
+          <p>{{ block.settings.name }}</p>
+        {% endif %}
+        <div>
+          {{ block.settings.content_of_page }}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Five Star Nutrition",
+  "settings": [
+    {
+      "type": "text",
+      "id": "Heading",
+      "label": "Enter Heading",
+      "default": "Heading"
+    },
+    {
+      "type": "checkbox",
+      "id": "text_enable",
+      "label": "Display Heading",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "font_size",
+      "min": 35,
+      "max": 70,
+      "step": 1,
+      "unit": "px",
+      "label": "Font size",
+      "default": 40
+    },
+    {
+      "type": "select",
+      "id": "vertical_alignment",
+      "label": "Vertical alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "content_block",
+      "name": "Content Block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "content_Heading",
+          "label": "Enter Heading",
+          "default": "Content Heading"
+        },
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Enter text",
+          "default": "text"
+        },
+        {
+          "type": "richtext",
+          "id": "content_of_page",
+          "label": "Enter Content",
+          "default": "<p>A string that contains the entered content.</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Five Star Nutrition",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+<script>
+  $(document).ready(function(){
+    $('.slider_example').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+    });
+  });
+</script>

@@ -1,0 +1,19 @@
+<div class="page-width">
+  {% for product in collections.all.products %}
+    {% assign Product_Id = product.id %}
+    {% if Product_Id == 9322072867118 %}
+      <div>
+        <h2>{{ product.title }}</h2>
+        <p>{{ product.description }}</p>
+        <img src="{{ product.featured_image | img_url:'medium' }}" alt="{{ product.title }}">
+        <a href="{{ product.url }}">View Product</a>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+{% schema %}
+{
+  "name": "Section name",
+  "settings": []
+}
+{% endschema %}

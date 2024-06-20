@@ -1,0 +1,135 @@
+<style>
+  .collections{
+    width: 100%;
+  }
+  .tabs {
+    display: flex;
+    flex-direction: column;
+  }
+  .tab-buttons {
+    margin-bottom: 20px;
+  }
+  .tab-buttons button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    background: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .tab-buttons button.active {
+    background: #ccc;
+  }
+  .tab-content {
+    display: none;
+  }
+  .tab-content.active {
+    display: block;
+  }
+  .collection{
+    width: 100%;
+  }
+  .collection li{
+    list-style: none;
+    font-size: 21px;
+    font-weight: 600;
+    padding-top: 32px;
+  }
+  .collection img{
+    padding-right: 10px;
+    margin-left: -40px;
+  }
+  .collection ul{
+    background: #f9f9fa;
+    display: flex;
+    align-items: center;
+  }
+  .collections_product{
+    margin-top: 20px;
+    display:flex;
+    width:100%;
+  }
+</style>
+
+<div class="page-width">
+  {% if section.settings.enable_text %}
+    <h1 style="text-align:center;">{{ section.settings.tab_collection_title }}</h1>
+  {% endif %}
+
+  {% if section.settings.collection_list != blank %}
+    <div class="collections">
+      <div class="tabs">
+        <div class="tab-buttons">
+          {% for collection in section.settings.collection_list %}
+            <button data-tab="#tab-{{ forloop.index0 }}">
+              <img src="{{ collection.featured_image | img_url:'small' }}" alt="{{ collection.title }}">
+              {{- collection.title }}
+            </button>
+          {% endfor %}
+        </div>
+        {% for collection in section.settings.collection_list %}
+          <div id="tab-{{ forloop.index0 }}" class="tab-content">
+            <div class="collections_product">
+              {% for product in collection.products %}
+                <div>
+                  <img src="{{ product.featured_image | img_url:'small' }}" alt="{{ collection.title }}">
+                  <h4>{{ product.title }}</h4>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "Tab of the page",
+  "settings": [
+    {
+      "type": "text",
+      "id": "tab_collection_title",
+      "label": "Tab Title",
+      "default": "Custom tabs"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_text",
+      "label": "Enable Text",
+      "default": true
+    },
+    {
+      "type": "collection_list",
+      "id": "collection_list",
+      "label": "Collections",
+      "limit": 3
+    }
+  ],
+  	"presets": [
+      {
+        "name": "custom tabs"
+      }
+    ]
+}
+{% endschema %}
+<script>
+  $(document).ready(function() {
+    $('.tab-buttons button').on('click', function() {
+      var target = $(this).data('tab');
+
+      $('.tab-buttons button').removeClass('active');
+      $(this).addClass('active');
+
+      $('.tab-content').removeClass('active');
+      $(target).addClass('active');
+    });
+
+    // Activate the first tab by default
+    $('.tab-buttons button:first').addClass('active');
+    $('.tab-content:first').addClass('active');
+  });
+</script>
